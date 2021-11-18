@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile</title>
+</head>
+
+<body>
+    <h1>Edit your profile</h1>
+
+    <form action="/profile/<%= profile.id %>/edit" method="post">
+        <label for="">Bio:</label>
+        <input type="text" name="bio" value="<%= profile.bio %>"><br><br>
+        <label for="">Profile Picture</label>
+        <input type="url" name="profilePicture" value="<%= profile.profilePicture %>"><br><br>
+        <input type="submit" value="Edit Profile">
+    </form>
+</body>
+
+</html>

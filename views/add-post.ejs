@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Post</title>
+</head>
+
+<body>
+    <h1>Show Me Your Food!!</h1>
+
+    <form action="/post/newPost/<%= user.id %>" method="post">
+        <label for="">Food Name:</label>
+        <input type="text" name="foodName"><br><br>
+        <label for="">Description:</label>
+        <input type="text" name="description"><br><br>
+        <label for="">Food Image:</label>
+        <input type="url" name="imageUrl"><br><br>
+        <label for="">Location of Food:</label>
+        <input type="text" name="location"><br><br>
+        <input type="submit" value="Post Yor Food">
+    </form>
+</body>
+
+</html>

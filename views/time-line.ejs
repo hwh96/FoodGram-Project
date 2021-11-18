@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Line</title>
+</head>
+
+<body>
+    <h1>Your TimeLine</h1>
+    <ul id="navbar" class="navbar d-flex">
+        <li><a href="/profile/<%= post[0].UserId %>">User Profile</a></li>
+    </ul>
+    <table border="1">
+        <tr>
+            <th>Food Image</th>
+            <th>Food Name</th>
+            <th>Description</th>
+            <th>Location</th>
+            <th>Action</th>
+        </tr>
+        <% post.forEach(el=> { %>
+            <tr>
+                <td>
+                    <%= el.imageUrl %>
+                </td>
+                <td>
+                    <%= el.foodName %>
+                </td>
+                <td>
+                    <%= el.description %>
+                </td>
+                <td>
+                    <%= el.location %>
+                </td>
+                <td><a href="/post/deletePost/<%= el.id %>"><button>Delete</button></a></td>
+            </tr>
+            <%}) %>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success Create Profile</title>
+</head>
+
+<body>
+    <h1>Wellcome to Foodgram</h1>
+
+    <table border="1">
+        <tr>
+            <th>Username</th>
+            <th>Name</th>
+            <th>Bio</th>
+            <th>Profile Picture</th>
+        </tr>
+        <tr>
+            <td>
+                <%= data.username %>
+            </td>
+            <td>
+                <%= data.name %>
+            </td>
+            <td>
+                <%= data.Profile.bio %>
+            </td>
+            <td>
+                <%= data.Profile.profilePicture %>
+            </td>
+        </tr>
+    </table><br>
+    <a href="/post/newPost/<%= data.id %>"><button>Post Your Food</button></a>
+    <a href="/post/timeLine"><button>TimeLine</button></a>
+    <br><br><br>
+    <a href="/profile/<%= data.id %>/edit"><button>Edit Your Profile</button></a>
+    <br><br>
+    <a href="/logout"><button>Logout</button></a>
+</body>
+
+</html>
