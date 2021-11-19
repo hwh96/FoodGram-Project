@@ -1,4 +1,4 @@
-const {FoodPost, User} =require('../models/index')
+const {FoodPost, User, Profile} =require('../models/index')
 
 class Controller {
     static getNewPost(req, res) {
@@ -28,9 +28,11 @@ class Controller {
 
     static showALlPosts(req, res) {
         console.log(req.session, '>>>>>');
-        FoodPost.findAll()
+        FoodPost.findAll({
+            include: [User]
+        })
             .then(data => {
-                // console.log(data);
+                console.log(data);
                 res.render('time-line', {post: data})
             })
     }

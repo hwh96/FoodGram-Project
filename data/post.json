@@ -1,0 +1,72 @@
+[
+    {
+        "foodName": "Sate Ayam",
+        "description": "Ini enak banget cuyy",
+        "imageUrl": "https://photos.smugmug.com/Indonesia-2016/i-9hLVhWh/0/X3/indonesian-sate-ayam-1-X3.jpg",
+        "location": "jakarta",
+        "UserId": 1
+    },
+    {
+        "foodName": "Ayam Bakar Taliwang",
+        "description": "Ini enak banget cuyy",
+        "imageUrl": "https://photos.smugmug.com/Indonesia-2016/i-Q4M8Pkt/0/X3/ayam-taliwang-jakarta-1-X3.jpg",
+        "location": "jakarta",
+        "UserId": 1
+    },
+    {
+        "foodName": "Ikan Bakar",
+        "description": "silahkan mampir gaess, enak banget sumpah ",
+        "imageUrl": "https://photos.smugmug.com/Indonesia-2016/i-7HM7dMM/0/X3/indonesian-food-9-X3.jpg",
+        "location": "jakarta",
+        "UserId": 1
+    },
+    {
+        "foodName": "Soto Betawi",
+        "description": "Ini enak banget cuyy",
+        "imageUrl": "https://photos.smugmug.com/Indonesia-2016/i-FKJbSsk/0/X3/soto-betawi-jakarta-21-X3.jpg",
+        "location": "jakarta",
+        "UserId": 1
+    },
+    {
+        "foodName": "Nasi Padang",
+        "description": "The best food in the world..",
+        "imageUrl": "https://photos.smugmug.com/Indonesia-2016/i-XFXggdC/0/X3/nasi-padang-jakarta-5-X3.jpg",
+        "location": "jakarta",
+        "UserId": 1
+    },
+    {
+        "foodName": "Nasi Goreng",
+        "description": "Ini enak banget cuyy",
+        "imageUrl": "https://i.pinimg.com/564x/53/0c/f4/530cf43901a25376a19b6c918e3e0155.jpg",
+        "location": "jakarta",
+        "UserId": 1
+    },
+    {
+        "foodName": "Lamb and mandi rice",
+        "description": "makan makanan india",
+        "imageUrl": "https://i.pinimg.com/564x/ab/b7/ad/abb7adb9cc92435c7c95e10f76155a33.jpg",
+        "location": "jakarta",
+        "UserId": 1
+    },
+    {
+        "foodName": "Bajigur",
+        "description": "menghangatkan diri dulu brayyy",
+        "imageUrl": "https://i.pinimg.com/564x/1d/75/a6/1d75a648cb0ddcb5b3495aa5162a230d.jpg",
+        "location": "jakarta",
+        "UserId": 1
+    },
+    {
+        "foodName": "Teh Talua",
+        "description": "hmmm mantappp",
+        "imageUrl": "https://i.pinimg.com/564x/23/da/f6/23daf6f7cc2058e703962aa5ceff4b9f.jpg",
+        "location": "jakarta",
+        "UserId": 1
+    },
+    {
+        "foodName": "Kopi Janji Jiwa",
+        "description": "Mending nungguin janji jiwa dari pada nungguin janji dia yang tak pernah terlaksana",
+        "imageUrl": "https://assets.grab.com/wp-content/uploads/sites/9/2019/11/17234808/ID-minuman-kekinian-kopi-janji-jiwa-700x700.jpg",
+        "location": "jakarta",
+        "UserId": 1
+    }
+]
