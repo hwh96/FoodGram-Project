@@ -13,9 +13,9 @@ router.get('/newProfile/:id', Controller.getNewProfile)
 router.post('/newProfile/:id', Controller.postNewProfile)
 
 router.use(function(req, res, next) {
-    console.log(req.session);
+    // console.log(req.session);
     const error = `Please Login or Create new Account`
-    if(!req.session) {
+    if(!req.session.userId) {
         res.redirect(`/?error=${error}`)
     } else {
         next()
